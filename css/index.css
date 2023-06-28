@@ -1,0 +1,130 @@
+html {
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  background-color: #3C3C3C;
+}
+
+/* Font Styles */
+h1 {
+  font-family: 'Figtree', sans-serif;
+}
+
+/* Navigation */
+
+.nav-container {
+  background-color: bisque;
+}
+
+nav {
+  width: 100%;
+  background-color: blue;
+}
+
+
+.inline-block {
+  display: inline-block;
+  padding-left: 5%;
+  padding-bottom: 1%;
+}
+
+.nav-item {
+  
+}
+
+.logo {
+  width: 100%;
+  max-width: 300px;
+}
+
+.sml-caption {
+
+}
+
+.navigation{
+  width: 100%;
+  height: 100px;
+  background: aqua;
+  margin: auto;
+  padding: 10px;
+}
+
+.one {
+  width: 20%;
+  height: auto;
+  background: red;
+  float: left;
+}
+
+.two {
+  margin-left: 30%;
+  height: auto;
+  background: black;
+}
+
+.nav-links {
+  position: relative;
+  color: aliceblue;
+  background-color: blueviolet;
+}
+
+.nav-links li {
+  float: right;
+}
+
+/* Hero Section */
+
+.hero-box1 {
+  float: left;
+  grid-area: section1;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10%;
+
+}
+
+.hero-section {
+ display: grid;
+ grid-template-areas: "section1 section2";
+}
+
+.hero-image {
+  width: auto;
+  max-height: 400px;
+}
+
+.hero-box2 {
+  
+  grid-area: section2;
+  background-color: purple;
+  display: flex;
+  justify-content: ;
+  align-items: center;
+}
+
+.footer-section {
+  padding-top: 5%;
+  display: grid;
+  grid-template-areas: "section1 section2";
+}
+
+.footer-logo {
+  grid-area: section2;
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+}
+
+.footer-button {
+  
+  grid-area: section2;
+  background-color: purple;
+  height: 20%;
+}
+
+.get-intouch {
+  float: right;
+}
