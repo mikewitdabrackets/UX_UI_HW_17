@@ -5,11 +5,23 @@ html {
 }
 
 /* Font Styles */
+
 h1 {
-  font-family: 'Figtree', sans-serif;
+  color: #FFFEF9;
+  font-size: 40px;
+  font-family: Figtree;
+  font-weight: 900;
+  line-height: 98.9%;
+  letter-spacing: -1px;
+}
+
+.highlight {
+  color: #FFCE07;
+
 }
 
 /* Navigation */
+
 
 .nav-container {
   background-color: bisque;
@@ -17,7 +29,7 @@ h1 {
 
 nav {
   width: 100%;
-  background-color: blue;
+  /*background-color: blue;*/
 }
 
 
@@ -25,6 +37,12 @@ nav {
   display: inline-block;
   padding-left: 5%;
   padding-bottom: 1%;
+  color: var(--ffce-07, #FFCE07);
+  font-size: 12px;
+  font-family: Figtree;
+  font-weight: 700;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
 }
 
 .nav-item {
@@ -43,28 +61,23 @@ nav {
 .navigation{
   width: 100%;
   height: 100px;
-  background: aqua;
+  /*background: aqua;*/
   margin: auto;
   padding: 10px;
 }
 
-.one {
+.nav-logo {
   width: 20%;
   height: auto;
-  background: red;
+  /*background: red;*/
   float: left;
-}
-
-.two {
-  margin-left: 30%;
-  height: auto;
-  background: black;
 }
 
 .nav-links {
   position: relative;
   color: aliceblue;
-  background-color: blueviolet;
+  /*background-color: blueviolet;*/
+  
 }
 
 .nav-links li {
@@ -76,12 +89,16 @@ nav {
 .hero-box1 {
   float: left;
   grid-area: section1;
-  background-color: red;
+  /*background-color: red;*/
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 10%;
+  margin-right: 0%;
+}
 
+.strapline {
+ /*background-color: aqua;*/
+ padding-right: 10%;
 }
 
 .hero-section {
@@ -90,18 +107,21 @@ nav {
 }
 
 .hero-image {
-  width: auto;
-  max-height: 400px;
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
 }
 
 .hero-box2 {
-  
   grid-area: section2;
-  background-color: purple;
-  display: flex;
-  justify-content: ;
+  /*background-color: purple;*/
+  width: 100%;
+  justify-content: center;
   align-items: center;
 }
+
+
+/* Footer */
 
 .footer-section {
   padding-top: 5%;
@@ -111,7 +131,7 @@ nav {
 
 .footer-logo {
   grid-area: section2;
-  background-color: purple;
+  /*background-color: purple;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,10 +141,23 @@ nav {
 .footer-button {
   
   grid-area: section2;
-  background-color: purple;
+  /*background-color: purple;*/
   height: 20%;
 }
 
 .get-intouch {
   float: right;
+  width: 150px;
+  height: 30px;
+  background-color: #FFCE07;
+  border: 0px;
+  font-size: 12px;
+  font-family: Figtree;
+  font-weight: 700;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
 }
+
+
+/* home case study section */
+
